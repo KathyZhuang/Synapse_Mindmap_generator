@@ -65,7 +65,7 @@ def sentence_preprocessing(paragraph):
     for i in range(0,len(sentence_list),1):
         if sentence_keep[i] == 1:
             sentence_keep, no_rep_sentence_list.append(sentence_no_rep_word_list[i])
-    return sentence_no_rep_word_list, sentence_keep, no_rep_sentence_list, sim_val_list
+    return no_rep_sentence_list
 
 paragraph = 'Gus Proto is a Python developer currently working for a London-based Fintech company for a London-based Fintech company.' \
             'Gus Proto is a Python developer currently working for a London-based Fintech company for a London-based Fintech company.' \
@@ -73,9 +73,7 @@ paragraph = 'Gus Proto is a Python developer currently working for a London-base
             'He is he is he is he is interested in learning Natural Language Processing.' \
             'Gus Proto is a Python developer currently working currently working currently working for a London-based Fintech company for a London-based Fintech company.' \
             'He is he is he is he is interested in learning Natural Language Processing.'\
-# # stc_list = split_para_to_sentence(paragraph)
 
-sentence_no_rep_word_list, sentence_keep, no_rep_sentence_list, sim_val_list = sentence_preprocessing(paragraph)
-print('sentence_keep2', sentence_keep)
-print('sentence_no_rep_word_list', sentence_no_rep_word_list)
-print('no_rep_sentence_list', no_rep_sentence_list)
+no_rep_sentence_list = sentence_preprocessing(paragraph)
+# print('no_rep_sentence_list',no_rep_sentence_list)
+
