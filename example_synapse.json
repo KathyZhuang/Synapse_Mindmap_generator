@@ -1,0 +1,49 @@
+{
+    "text": "Notes",
+    "children": [
+        {
+            "text": "Our goal is to help you organize the information you get from all sorts of videos.",
+            "children": []
+        },
+        {
+            "text": "So snap, we got your meeting notes and lecture notes organized.",
+            "children": []
+        },
+        {
+            "text": "Our basic idea is to turn recordings to mind map.",
+            "children": [
+                {
+                    "text": "First of all, we delete redundant and similar sentences.",
+                    "children": [
+                        {
+                            "text": "To do this, we use weighted-average of word2vec vectors to measure the similarity between sentences, and remove the redundant ones.",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "text": "Then, we want to turn the sentences to knowledge graphs.",
+                    "children": [
+                        {
+                            "text": "We use part-of-speech tagging to extract the subjects, objects and relations from the sentences.",
+                            "children": []
+                        },
+                        {
+                            "text": "We also use term frequency analysis to filter out unimportant graphs.",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "text": "Finally, we present the graph as a mind map.",
+                    "children": [
+                        {
+                            "text": "The mind map can then be edited by the users for adjustment.",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
