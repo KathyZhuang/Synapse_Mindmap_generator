@@ -1,0 +1,113 @@
+
+/*-----------------------------------------header css----------------------------------------*/
+.a-style-icon{
+    color:white;
+}
+
+.a-style-txt{
+    color:#90AFF;
+}
+
+
+#header {
+    height: 100vh;
+    /*background:url(PW1.png);*/
+    background: url(Desktop01-1.png);
+    /*background: url(bgr-black.png);*/
+    /*linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6))*/
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.user-box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.profile-pic {
+    /*CHANGE THIS LATER*/
+    /*border-radius: 35%;*/
+    width: 600px;
+    /*position: sticky;*/
+    /*border: 2px solid lightseagreen;*/
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, 15px);
+    }
+    to {
+        transform: translate(0, -0px);
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+
+.user-box p {
+    color: white;
+    font-size: 15px;
+}
+
+
+#page2 {
+    height: 150vh;
+    background: url(Desktop01-1.png);
+}
+
+#page3 {
+    height: 150vh;
+    background: url(Desktop02.png);
+}
+
+
+#page4 {
+    height: 150vh;
+    background: url(Desktop03.png);
+}
+
+
+#page5 {
+    height: 150vh;
+    background: url(Desktop04.png);
+}
+
+
+#page6 {
+    height: 150vh;
+    background: url(Desktop05.png);
+}
+
+#para{
+    position: center;
+}
+
+
+#myform{
+    margin-top: 35%;
+    margin-left: 45%;
+}
+
+#button1{
+    margin-top: 80%;
+    margin-left: 45%;
+}
+
+
+#button2{
+    margin-top: 70%;
+    margin-left: 45%;
+}
