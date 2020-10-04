@@ -1,4 +1,7 @@
 import spacy
+import nltk
+nltk.download('wordnet')
+# from nltk.corpus import wordnet
 from spacy.lang.en import English
 import networkx as nx
 import matplotlib.pyplot as plt
