@@ -1,0 +1,120 @@
+{
+    "text": "Notes",
+    "children": [
+        {
+            "text": "We are living in an information era, with 2 video conferences and 5 online lectures each day.",
+            "children": [
+                {
+                    "text": "Now, it\u2019s more crucial than ever for us to overcome this overwhelmed.",
+                    "children": [
+                        {
+                            "text": "That\u2019s why we invented Synapse.",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Snap, We got your video conference notes organized.",
+            "children": []
+        },
+        {
+            "text": "We normally expect at least 90% of our video conference came out to be useful, which can be stored in the bigger circle representing your memorization.",
+            "children": [
+                {
+                    "text": "However, multiple situation arises.",
+                    "children": [
+                        {
+                            "text": "Thus we want to take care of this process for you, using Natural Language Processing.",
+                            "children": [
+                                {
+                                    "text": "It works just like your brain, but you don\u2019t need to use any effort.",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Our idea is to analyze various information embed in your videos, and to organize it as a mind map through Synapse neural network, so it\u2019s logical and presentable.",
+            "children": [
+                {
+                    "text": "Then, we will hand you the most valuable information as take-home message.",
+                    "children": [
+                        {
+                            "text": "However, just like human brain, we make mistakes.",
+                            "children": [
+                                {
+                                    "text": "That\u2019s when you can edit our mindmap, which will hopefully help us with improving our model using supervised learning in the future.",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "There are 3 steps we use to achieve this goal.",
+            "children": [
+                {
+                    "text": "First, be selective.",
+                    "children": [
+                        {
+                            "text": "We will carefully delete repetitive sentences and words using spaCy and word2vec.",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "text": "Then, we make it more comprehensible.",
+                    "children": [
+                        {
+                            "text": "Our model will try to interpret the logic relationships between sentences using information extraction, for a mind map to be finally generated.",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "text": "Finally, we want you to be productive.",
+                    "children": []
+                },
+                {
+                    "text": "So we use word frequency and keywords to unpack the valuable pieces like date, to-do-list, and network info, to boost your productivity.",
+                    "children": [
+                        {
+                            "text": "Because Synapse is a productivity idea, in the future, we want it to be connected to other productive services you are using.",
+                            "children": [
+                                {
+                                    "text": "We want you to be able to directly input from your educational videos and conference services.",
+                                    "children": [
+                                        {
+                                            "text": "After Synapse skim through it, the mind map can be put in your usual note-taking, collaborating, and calendar tools.",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "text": "So that you can focus more on interacting with people.",
+                    "children": []
+                },
+                {
+                    "text": "So next time, when information arises, don\u2019t panic.",
+                    "children": [
+                        {
+                            "text": "Synapse will snap, and we will get your video notes organized.",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
