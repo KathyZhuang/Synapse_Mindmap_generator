@@ -11,7 +11,8 @@ Our inspiration comes from the ongoing coronavirus and its resulting remote lear
 ## Built With
 CSS, HTML, IBM, IBM-cloud, JavaScript, Python
 
-To clean and remove duplicated sentences:
+
+## To clean and remove duplicated sentences:
 
 ###install spaCy
 `pip install spacy`
